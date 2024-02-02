@@ -300,43 +300,43 @@ const scaleFactorSelector = () => store.state.config.scaleFactor;
 const helpContent = {
 	shellType: {
 		header: 'Shell Type',
-		body: 'The type of firework that will be launched. Select "Random" for a nice assortment!'
+		body: 'Loại pháo hoa sẽ được bắn. Chọn "j tuỳ m" để có một loại tốt đẹp!'
 	},
 	shellSize: {
 		header: 'Shell Size',
-		body: 'The size of the fireworks. Modeled after real firework shell sizes, larger shells have bigger bursts with more stars, and sometimes more complex effects. However, larger shells also require more processing power and may cause lag.'
+		body: 'Kích thước của pháo hoa. Mô phỏng theo kích thước vỏ pháo hoa thực, vỏ lớn có các vụ nổ lớn hơn với nhiều sao hơn và có nhiều hiệu ứng phức tạp hơn. Tuy nhiên, vỏ lớn hơn cũng đòi hỏi sức mạnh xử lý nhiều hơn và có thể gây lag.'
 	},
 	quality: {
 		header: 'Quality',
-		body: 'Overall graphics quality. If the animation is not running smoothly, try lowering the quality. High quality greatly increases the amount of sparks rendered and may cause lag.'
+		body: 'Chất lượng đồ hoạ. Nếu chạy lag thì giảm đồ hoạ'
 	},
 	skyLighting: {
 		header: 'Sky Lighting',
-		body: 'Illuminates the background as fireworks explode. If the background looks too bright on your screen, try setting it to "Dim" or "None".'
+		body: 'Chiếu sáng khi pháo nổ. Không thích thì tắt "chọn none".'
 	},
 	scaleFactor: {
 		header: 'Scale',
-		body: 'Allows scaling the size of all fireworks, essentially moving you closer or farther away. For larger shell sizes, it can be convenient to decrease the scale a bit, especially on phones or tablets.'
+		body: 'Như kiểu phóng to thu nhỏ theo phần trăm (màn hình bé thì chọn tầm 90% hoặc 100% còn pc thích như nào cũng đc.'
 	},
 	autoLaunch: {
 		header: 'Auto Fire',
-		body: 'Launches sequences of fireworks automatically. Sit back and enjoy the show, or disable to have full control.'
+		body: 'Bắn pháo tự động'
 	},
 	finaleMode: {
 		header: 'Finale Mode',
-		body: 'Launches intense bursts of fireworks. May cause lag. Requires "Auto Fire" to be enabled.'
+		body: 'Chế độ bantumlum của AutoFire (khuyến cáo: máy yếu thì tắt máy khoẻ bật lên hoặc tắt thì tuỳ.)'
 	},
 	hideControls: {
 		header: 'Hide Controls',
-		body: 'Hides the translucent controls along the top of the screen. Useful for screenshots, or just a more seamless experience. While hidden, you can still tap the top-right corner to re-open this menu.'
+		body: 'Ẩn 3 bảng điều khiển trên đầu giúp ae có thể cap hoặc quay k bị vướng.'
 	},
 	fullscreen: {
 		header: 'Fullscreen',
-		body: 'Toggles fullscreen mode.'
+		body: 'Phóng toàn màn hình.'
 	},
 	longExposure: {
 		header: 'Open Shutter',
-		body: 'Experimental effect that preserves long streaks of light, similar to leaving a camera shutter open.'
+		body: 'Kéo dài thời gian ánh sáng của pháo khi nổ. (máy yếu tắt đi k lag đấy)'
 	}
 };
 
